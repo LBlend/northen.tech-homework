@@ -14,7 +14,7 @@ The usage syntax is as follows:
 python3 sbom.py <directory>
 ```
 
-** Example **
+**Example**
 
 ```bash
 python3 sbom.py /home/leander/Documents/code
