@@ -25,9 +25,8 @@ def get_all_dependencies(path: str) -> list[Dependency] | None:
     all_formatted_dependencies = []
 
     for subdir in os.listdir(path):
-        subdir = os.path.join(
-            path, subdir
-        )  # Convert subir to an actual path and not a directory name
+        # Convert subir to an actual path and not a directory name
+        subdir = os.path.join(path, subdir)
 
         # I'm going to assume that the .git dir is valid
         git_dir = os.path.join(subdir, ".git")
