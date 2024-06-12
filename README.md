@@ -17,7 +17,7 @@ python3 sbom.py <directory>
 ** Example **
 
 ```bash
-python3 sbom.py /home/leander/
+python3 sbom.py /home/leander/Documents/code
 ```
 
 Note that absolute paths are not required when running the script like this. If you decide to import any functions from this file though make sure to use them.
