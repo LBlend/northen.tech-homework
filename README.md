@@ -33,6 +33,7 @@ _Most assumptions are also listed in the code as comments. I suggest you read th
 - DevDependencies shall be ignored for `package.json`
 - The file paths are not invalidated during runtime. In other words, not deleted, moved or modified.
 - The script is run by a user that has privileges to read and write the files in the needed files and directories.
+- Repository search is non-recursive
 
 These assumptions are made to simplify the implementation. I might take my time to fix some of them before the deadline.
 
